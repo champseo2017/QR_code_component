@@ -1,0 +1,72 @@
+/* 
+# Front-end Style Guide
+
+## Layout
+- Mobile width: 375px
+- Desktop width: 1440px
+
+💡 Ensure content is responsive and meets WCAG requirements by testing across screen sizes from 320px to large screens.
+
+## Colors
+- White: hsl(0, 0%, 100%)
+- Slate 300: hsl(212, 45%, 89%) for background
+- Slate 500: hsl(216, 15%, 48%) for description text
+- Slate 900: hsl(218, 44%, 22%) for title text
+
+## Typography
+- Font size (paragraph): 15px
+- Font family: Outfit (recommended), with weights 400, 700
+
+💎 For more details, download the design file for the complete design guide.
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif; /* Updated to Outfit font */
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: hsl(212, 45%, 89%); /* Slate 300 */
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .qr-card {
+    background-color: hsl(0, 0%, 100%); /* White */
+    border-radius: 15px;
+    padding: 20px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .qr-card__image {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .qr-card__title {
+    font-size: 1.25rem;
+    font-weight: 700; /* Updated to weight 700 for bold */
+    color: hsl(218, 44%, 22%); /* Slate 900 */
+    margin-top: 20px;
+  }
+  
+  .qr-card__description {
+    font-size: 15px; /* Updated font size as per the guide */
+    font-weight: 400; /* Set to regular weight */
+    color: hsl(216, 15%, 48%); /* Slate 500 */
+    margin-top: 10px;
+  }
+  
