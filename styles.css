@@ -54,19 +54,24 @@
   .qr-card__image {
     width: 100%;
     border-radius: 10px;
+    margin-bottom: 20px; /* Add space between the image and title */
   }
   
   .qr-card__title {
-    font-size: 1.25rem;
+    font-size: 1.5rem; /* Adjusted font size for better match */
     font-weight: 700; /* Updated to weight 700 for bold */
     color: hsl(218, 44%, 22%); /* Slate 900 */
-    margin-top: 20px;
+    margin-top: 0;
+    margin-bottom: 15px; /* Space between title and description */
+    line-height: 1.4; /* Adjust line-height for better readability */
   }
   
   .qr-card__description {
-    font-size: 15px; /* Updated font size as per the guide */
+    font-size: 15px; /* Font size as per the guide */
     font-weight: 400; /* Set to regular weight */
     color: hsl(216, 15%, 48%); /* Slate 500 */
-    margin-top: 10px;
+    line-height: 1.6; /* Improve readability */
+    margin-top: 0;
+    padding: 0 15px; /* Add padding for better alignment */
   }
   
