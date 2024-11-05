@@ -9,7 +9,6 @@ This project is a simple QR Code Component that displays a QR code image, a titl
 - [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
-- [Credits](#credits)
 
 ## Features
 
@@ -43,8 +42,8 @@ You will need a text editor like [Visual Studio Code](https://code.visualstudio.
 
 ### Project Structure
 
-QR_code_component/
-├── index.html        # Main HTML file
-├── styles.css        # Main CSS file for styling
-├── image-qr-code.png # QR code image file
-└── README.md         # Project README file
+- **QR_code_component/**
+  - `index.html` - Main HTML file
+  - `styles.css` - Main CSS file for styling
+  - `image-qr-code.png` - QR code image file
+  - `README.md` - Project README file
